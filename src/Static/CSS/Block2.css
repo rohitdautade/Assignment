@@ -1,0 +1,133 @@
+.mainlayout{
+    display: flex;
+    margin-left: 2vw;
+    margin-right: 1.5vw;
+    margin-top: 1vw;
+}
+
+.revinue{
+    background-color: #def1ff;
+    width: 25%;
+    height: 150px;
+    margin: 0.5%;
+    border:1px solid #c4dff3;
+    opacity: 1;
+    border-radius: 5px;
+    padding: 0.5vw;
+}
+.revinue1{
+    background-color: #fef7da;
+    width: 25%;
+    height: 150px;
+    margin: 0.5%;
+    border: 1px solid #fcedad ;
+    opacity: 1;
+    border-radius: 5px;
+    padding: 0.5vw;
+}
+.revinue2{
+    background-color: #ffe7db;
+    width: 25%;
+    height: 150px;
+    margin: 0.5%;
+    border: 1px solid #f7cfbb ;
+    opacity: 1;
+    border-radius: 5px;
+    padding: 0.5vw;
+    
+}
+.revinue3{
+    background-color: #f0dcff;
+    width: 25%;
+    height: 150px;
+    margin: 0.5%;
+    border: 1px solid #e1c5f7;
+    opacity: 1;
+    border-radius: 5px;
+    padding: 0.5vw;
+}
+.revinuecontent{
+    display: flex;
+    justify-content: space-between;
+    margin: 1vw;
+}
+.colmundisply{
+    display: flex;
+    margin-left: -50px;
+
+}
+li{
+    list-style: none;
+}
+
+.li1{
+    background-color: #2598ed;
+    width: 5px;
+    height: 50px;
+    padding: 2px;
+    list-style: none;
+    margin: 5px;
+  
+}
+.li2{
+    background-color: #8614ea;
+    width: 5px;
+    height: 50px;
+    padding: 2px;
+    list-style: none;
+    margin: 5px;
+  
+}
+.textital{
+    color: black;
+    font-size: 1.2vw;
+   
+}
+.dollervalue{
+    color: #2598ed;
+    font-size: 1.7vw;
+}
+.dollervaluesign{
+    color: #2598ed;
+    font-size: 1.2vw;
+}
+.dollervaluelast{
+    color: #8614ea;
+    font-size: 1.7vw;
+
+}
+.dollervaluesign3{
+    color: #8614ea;
+    font-size: 1.2vw;
+}
+.dollervalue1{
+    color: #f9d12d;
+    font-size: 1.7vw;
+    margin-top: -1vw;
+}
+.dollervaluesign1{
+    color: #f9d12d;
+    font-size: 1.2vw;
+}
+.dollervalue2{
+    color: #df5926;
+    font-size: 1.7vw;
+    margin-top: -1vw;
+}
+.dollervaluesign2{
+    color: #df5926;
+    font-size: 1.2vw;
+}
+.textsecond{
+    color: #a5a5a5;
+    font-size: 0.8vw;
+    margin-top: -3vw;
+    margin-left: 0.5vw;
+}
+select{
+    font-size: 1vw;
+    border: none;
+    height: 2vw;
+    
+}
+

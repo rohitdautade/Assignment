@@ -1,0 +1,190 @@
+.blockoneleft{
+    background-color: #ffffff;
+    width: 70%;
+    padding: 10px;
+    margin-left: 2vw;
+    margin-top: 2%;
+ 
+   
+   
+}
+
+
+.block1{
+    display: flex;
+}
+.bloconeright{
+    background-color: #ffffff;
+    width: 30%;
+    padding: 10px;
+    margin-left: 2vw;
+    margin-top: 2%;
+    margin-right: 3vh;
+
+}
+.textlight{
+    color: #aeaeae;
+    font-size: 0.9vw
+}
+.textmain{
+    color: black;
+    font-size: 1.2vw;
+}
+.values{
+    width: 35%;
+    margin-left: 1vw;
+}
+.graph{
+    width:65%;
+}
+.valuetext{
+    color: black;
+    font-size: 1.7vw;
+    font-weight: 600;
+}
+.lastbtnsmry{
+    background-color: #fa6014;
+    color: whitesmoke;
+    border:1px solid #fa6014;
+    padding: 10px 10px 10px 10px;
+    border-radius: 5px;
+    font-size: 1vw;
+    
+}
+.graphreport{
+    display: flex;
+    font-size: 1vw;
+}
+.activegraph{
+    border-bottom: 2px solid #ca6533;
+    margin-right:1vw ;
+    font-size: 0.8vw;
+}
+.othergrahreport{
+    margin-right:1vw ;
+    color: #aeaeae;
+    font-size: 0.8vw;
+
+}
+.onlinestetus{
+    display: flex;
+    margin-left: auto;
+    margin-top: -0.5vw;
+    
+}
+.Online{
+        color: #25a6e6;
+        font-size: 0.8vw;
+ 
+}
+.Offline{
+    color: #fe5e24;
+    font-size: 0.8vw;
+}
+
+
+.onlinestetusclr{
+    color: #aeaeae;
+    font-size: 0.8vw;
+    margin-top: -10px;
+
+
+}
+.onlinestetus p{
+    margin-right: 20px;
+}
+.walletbalance{
+    display: flex;
+    justify-content: space-around;
+}
+.icontextwallet{
+    display: flex;
+}
+.wallet{
+    background-color: #ef3d18;
+    width: 1.5vw;
+    height: 1.5vw;
+    border-radius: 3vw;
+    padding: 1vw;
+    margin-right: 1vw;
+    color: whitesmoke   ;
+    font-size: 1.3vw;
+}
+.refral{
+    background-color: #6d7ae3 ;
+    width: 1.5vw;
+    height: 1.5vw;
+    border-radius: 3vw;
+    padding: 1vw;
+    margin-right: 1vw;
+    color: whitesmoke   ;
+    font-size: 1.3vw;
+}
+.estimate{
+    background-color: #4c993a;
+    width: 1.5vw;
+    height: 1.5vw;
+    border-radius: 3vw;
+    padding: 1vw;
+    margin-right: 1vw;
+    color: whitesmoke   ;
+    font-size: 1.3vw;
+}
+.earning{
+    background-color:  #f67a98;
+    width: 1.5vw;
+    height: 1.5vw;
+    border-radius: 3vw;
+    padding: 1vw;
+    margin-right: 1vw;
+    color: whitesmoke   ;
+    font-size: 1.3vw;
+
+}
+.lasttextclor{
+    color: #aeaeae;
+    font-size: 1vw
+}
+.lastvaluetext{
+    color: black;
+    font-size: 1.2vw;
+    font-weight: 600;
+
+}
+.ui-widget {
+    position: relative;
+    display: inline-block;
+    width:13rem;
+    height: 13rem;
+    margin: 1.5rem;
+    border: 1.2rem solid #f4c61d;
+    text-align: center;
+    border-radius: 9rem;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    border-bottom-color: #a5e2fd;
+    border-top-color:#ff5f13 ;
+    border-right-color:#ff5f13;
+    box-sizing: border-box;
+}
+.center{
+    margin-left: 3vw;
+}
+.facebook{
+    color: #22a1fe;
+    font-size: 1.2vw;
+}
+.youtube{
+    color: #ff5f13;
+    font-size: 1.2vw;
+}
+.direct{
+    color: #fcca00;
+    font-size: 1.2vw;
+}
+.percentage{
+    color: black;
+    font-size: 1.7vw;
+    font-weight: 600;
+    margin-left: 1vw;
+
+}
