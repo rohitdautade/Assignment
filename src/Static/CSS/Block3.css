@@ -175,3 +175,13 @@ table {
     font-size: 1vw;
       
   }
+  .btnholddfg{
+    background-color:#6879db;
+    color: whitesmoke;
+    border:1px solid #6879db;
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+    font-size: 1vw;
+      
+  }
+
