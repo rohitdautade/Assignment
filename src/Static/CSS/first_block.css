@@ -1,8 +1,8 @@
-.blockoneleft{
+.block-left{
     background-color: #ffffff;
     width: 70%;
-    padding: 10px;
-    margin-left: 2vw;
+    padding: 0.8rem;
+    margin-left: 1.7rem;
     margin-top: 2%;
  
    
@@ -13,91 +13,91 @@
 .block1{
     display: flex;
 }
-.bloconeright{
+.block-right{
     background-color: #ffffff;
     width: 30%;
-    padding: 10px;
-    margin-left: 2vw;
+    padding: 0.8rem;
+    margin-left: 1.5rem;
     margin-top: 2%;
-    margin-right: 3vh;
+    margin-right: 1.7rem;
 
 }
-.textlight{
+.text-light{
     color: #aeaeae;
-    font-size: 0.9vw
+    font-size: 0.8rem
 }
-.textmain{
+.text-main{
     color: black;
-    font-size: 1.2vw;
+    font-size: 1.2rem;
 }
 .values{
     width: 35%;
-    margin-left: 1vw;
+    margin-left: 1rem;
 }
 .graph{
     width:65%;
 }
-.valuetext{
+.value-text{
     color: black;
-    font-size: 1.7vw;
+    font-size: 1.5rem;
     font-weight: 600;
 }
-.lastbtnsmry{
+.last-btn{
     background-color: #fa6014;
     color: whitesmoke;
     border:1px solid #fa6014;
-    padding: 10px 10px 10px 10px;
+    padding:0.625rem;
     border-radius: 5px;
-    font-size: 1vw;
+    font-size: 1rem;
     
 }
-.graphreport{
+.graph-report{
     display: flex;
-    font-size: 1vw;
+    font-size: 0.8rem;
 }
-.activegraph{
+.active-graph{
     border-bottom: 2px solid #ca6533;
-    margin-right:1vw ;
-    font-size: 0.8vw;
+    margin-right:1rem ;
+    font-size: 0.8rem;
 }
-.othergrahreport{
-    margin-right:1vw ;
+.other-graph-report{
+    margin-right:1rem ;
     color: #aeaeae;
-    font-size: 0.8vw;
+    font-size: 0.8rem;
 
 }
-.onlinestetus{
+.online-status{
     display: flex;
     margin-left: auto;
-    margin-top: -0.5vw;
+    margin-top: -0.8rem;
     
 }
 .Online{
         color: #25a6e6;
-        font-size: 0.8vw;
+        font-size: 0.8rem;
  
 }
 .Offline{
     color: #fe5e24;
-    font-size: 0.8vw;
+    font-size: 0.8rem   ;
 }
 
 
-.onlinestetusclr{
+.status-text{
     color: #aeaeae;
-    font-size: 0.8vw;
-    margin-top: -10px;
+    font-size: 0.8rem;
+    margin-top: 0.7rem;
 
 
 }
-.onlinestetus p{
+.online-status p{
     margin-right: 20px;
 }
-.walletbalance{
+.wallet-balance{
     display: flex;
     justify-content: space-around;
 }
-.icontextwallet{
+.icon-text-wallet{
     display: flex;
 }
 .wallet{
@@ -141,13 +141,13 @@
     font-size: 1.3vw;
 
 }
-.lasttextclor{
+.last-text-clor{
     color: #aeaeae;
-    font-size: 1vw
+    font-size: 1rem;
 }
-.lastvaluetext{
+.last-value-text{
     color: black;
-    font-size: 1.2vw;
+    font-size: 1.5rem;
     font-weight: 600;
 
 }
@@ -167,24 +167,28 @@
     box-sizing: border-box;
 }
 .center{
-    margin-left: 3vw;
+    margin-left: 2.3rem;
+    margin-top: -1.5rem;
 }
 .facebook{
     color: #22a1fe;
-    font-size: 1.2vw;
+    font-size: 1rem;
 }
 .youtube{
     color: #ff5f13;
-    font-size: 1.2vw;
+    font-size: 1rem;
 }
 .direct{
     color: #fcca00;
-    font-size: 1.2vw;
+    font-size: 1rem;
 }
 .percentage{
     color: black;
-    font-size: 1.7vw;
+    font-size: 1.5rem;
     font-weight: 600;
-    margin-left: 1vw;
+    margin-left: 1rem;
 
+}
+.block-right .wallet-balance{
+    margin-top: -1rem;
 }

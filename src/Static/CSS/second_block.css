@@ -1,8 +1,8 @@
-.mainlayout{
+.main-layout{
     display: flex;
-    margin-left: 2vw;
-    margin-right: 1.5vw;
-    margin-top: 1vw;
+    margin-left: 1.2rem;
+    margin-right: 1.2rem;
+    margin-top: 2%;
 }
 
 .revinue{
@@ -46,12 +46,12 @@
     border-radius: 5px;
     padding: 0.5vw;
 }
-.revinuecontent{
+.revinue-content{
     display: flex;
     justify-content: space-between;
-    margin: 1vw;
+    margin: 1.5rem;
 }
-.colmundisply{
+.col-disply{
     display: flex;
     margin-left: -50px;
 
@@ -78,56 +78,58 @@ li{
     margin: 5px;
   
 }
-.textital{
+.text-tital{
     color: black;
-    font-size: 1.2vw;
+    font-size: 1.2rem;
    
 }
-.dollervalue{
+.doller-value{
     color: #2598ed;
-    font-size: 1.7vw;
+    font-size: 1.5rem;
 }
-.dollervaluesign{
+.doller-value-sign{
     color: #2598ed;
-    font-size: 1.2vw;
+    font-size: 1.1rem;
 }
-.dollervaluelast{
+.doller-value-last{
     color: #8614ea;
-    font-size: 1.7vw;
+    font-size: 1.1rem;
 
 }
-.dollervaluesign3{
+.doller-value-sign3{
     color: #8614ea;
-    font-size: 1.2vw;
+    font-size: 1.1rem;
 }
-.dollervalue1{
+.doller-value1{
     color: #f9d12d;
-    font-size: 1.7vw;
-    margin-top: -1vw;
+    font-size: 1.5rem;
+    margin-top: -1rem;
 }
-.dollervaluesign1{
+.doller-value-sign1{
     color: #f9d12d;
-    font-size: 1.2vw;
+    font-size: 1.1rem;
 }
-.dollervalue2{
+.doller-value-sign2{
+    
     color: #df5926;
-    font-size: 1.7vw;
-    margin-top: -1vw;
+    font-size: 1.1rem;
 }
-.dollervaluesign2{
+.doller-value2{
     color: #df5926;
-    font-size: 1.2vw;
+    font-size: 1.5rem;
+    margin-top: -1rem;
+   
 }
-.textsecond{
+.text-second{
     color: #a5a5a5;
-    font-size: 0.8vw;
-    margin-top: -3vw;
-    margin-left: 0.5vw;
+    font-size: 0.8rem;
+    margin-top: -2.5rem;
+    margin-left: 0.5rem;
 }
 select{
-    font-size: 1vw;
+    font-size: 1rem;
     border: none;
-    height: 2vw;
+    height: 2rem;
     
 }
 

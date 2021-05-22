@@ -1,22 +1,22 @@
 import React from 'react';
-import '../Static/CSS/Block2.css'
+import '../Static/CSS/second_block.css'
 import * as FaIcons from 'react-icons/fa';
 const Block2 = () => {
     return (
         <>
-            <div className="mainlayout">
+            <div className="main-layout">
                 <div className="revinue">
-                    <p className="textital">Revinue Status</p>
-                    <div className="revinuecontent">
-                        <ul className="colmundisply">
+                    <p className="text-tital">Revinue Status</p>
+                    <div className="revinue-content">
+                        <ul className="col-disply">
                             <li className="li1"></li>
                             <li className="li1"></li>
                             <li className="li1"></li>
                             <li className="li1"></li>
                         </ul>
                         <div>
-                            <p className="dollervalue"><strong><FaIcons.FaArrowUp className="dollervaluesign" />$432</strong></p><br />
-                            <p className="textsecond">jan 01 - jan 10</p>
+                            <p className="doller-value"><strong><FaIcons.FaArrowUp className="doller-value-sign" />$432</strong></p><br />
+                            <p className="text-second">jan 01 - jan 10</p>
                         </div>
 
 
@@ -24,13 +24,13 @@ const Block2 = () => {
 
                 </div>
                 <div className="revinue1">
-                    <p className="textital">Page View</p>
-                    <p className="dollervalue1"><strong ><FaIcons.FaArrowUp className="dollervaluesign1" />$432</strong></p>
+                    <p className="text-tital">Page View</p>
+                    <p className="doller-value1"><strong ><FaIcons.FaArrowUp className="doller-value-sign1" />$432</strong></p>
 
                 </div>
                 <div className="revinue2">
-                    <p className="textital">Bounce Rate</p>
-                    <p className="dollervalue2"><strong><FaIcons.FaArrowUp className="dollervaluesign2" />$432</strong></p>
+                    <p className="text-tital">Bounce Rate</p>
+                    <p className="doller-value2"><strong><FaIcons.FaArrowUp className="doller-value-sign2" />$432</strong></p>
                     <select>
                         <option>monthly</option>
                         <option>weeklly </option>
@@ -39,17 +39,17 @@ const Block2 = () => {
 
                 </div>
                 <div className="revinue3">
-                    <p className="textital">Revinue Status</p>
-                    <div className="revinuecontent">
-                        <ul className="colmundisply">
+                    <p className="text-tital">Revinue Status</p>
+                    <div className="revinue-content">
+                        <ul className="col-disply">
                             <li className="li2"></li>
                             <li className="li2"></li>
                             <li className="li2"></li>
                             <li className="li2"></li>
                         </ul>
                         <div>
-                            <p className="dollervaluelast"><strong><FaIcons.FaArrowUp className="dollervaluesign3" />$432</strong></p><br />
-                            <p className="textsecond">jan 01 - jan 10</p>
+                            <p className="doller-value-last"><strong><FaIcons.FaArrowUp className="doller-value-sign3" />$432</strong></p><br />
+                            <p className="text-second">jan 01 - jan 10</p>
                         </div>
 
 
