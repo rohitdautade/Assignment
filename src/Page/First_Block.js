@@ -54,9 +54,9 @@ const Block1 = () => {
                         </div>
                     </div>
                     <div className="wallet-balance">
-                        <div><p><span className="percentage">25%</span><br /> <Go.GoPrimitiveDot className="facebook" /><small className="lasttextclor">Facebook</small></p></div>
-                        <div><p><span className="percentage">50%</span><br /><Go.GoPrimitiveDot className="youtube" /><small className="lasttextclor">Youtube</small></p></div>
-                        <div><p><span className="percentage">25%</span><br /><Go.GoPrimitiveDot className="direct" /><small className="lasttextclor">Direct Search</small></p></div>
+                        <div><p><span className="percentage">25%</span><br /> <Go.GoPrimitiveDot className="facebook" /><small className="last-text-clor">Facebook</small></p></div>
+                        <div><p><span className="percentage">50%</span><br /><Go.GoPrimitiveDot className="youtube" /><small className="last-text-clor">Youtube</small></p></div>
+                        <div><p><span className="percentage">25%</span><br /><Go.GoPrimitiveDot className="direct" /><small className="last-text-clor">Direct Search</small></p></div>
 
                     </div>
 

@@ -1,8 +1,8 @@
 .block-left{
     background-color: #ffffff;
     width: 70%;
-    padding: 0.8rem;
-    margin-left: 1.7rem;
+    padding: 1.5rem;
+    margin-left: 2rem;
     margin-top: 2%;
  
    
@@ -16,30 +16,33 @@
 .block-right{
     background-color: #ffffff;
     width: 30%;
-    padding: 0.8rem;
+    padding: 1.5rem;
     margin-left: 1.5rem;
     margin-top: 2%;
-    margin-right: 1.7rem;
+    margin-right: 2rem;
 
 }
 .text-light{
     color: #aeaeae;
-    font-size: 0.8rem
+    font-size: 1.5rem
 }
 .text-main{
     color: black;
-    font-size: 1.2rem;
+    font-size: 2rem;
 }
 .values{
     width: 35%;
     margin-left: 1rem;
+}
+.values p{
+    margin-bottom: 2.3rem;
 }
 .graph{
     width:65%;
 }
 .value-text{
     color: black;
-    font-size: 1.5rem;
+    font-size: 2.5rem;
     font-weight: 600;
 }
 .last-btn{
@@ -47,51 +50,51 @@
     color: whitesmoke;
     border:1px solid #fa6014;
     padding:0.625rem;
-    border-radius: 5px;
-    font-size: 1rem;
+    border-radius: 0.3rem;
+    font-size: 2rem;
     
 }
 .graph-report{
     display: flex;
-    font-size: 0.8rem;
 }
 .active-graph{
     border-bottom: 2px solid #ca6533;
     margin-right:1rem ;
-    font-size: 0.8rem;
+    font-size: 1.1rem;
+    color: black;
 }
 .other-graph-report{
     margin-right:1rem ;
     color: #aeaeae;
-    font-size: 0.8rem;
+    font-size: 1.1rem;
 
 }
 .online-status{
     display: flex;
     margin-left: auto;
-    margin-top: -0.8rem;
+    
     
 }
 .Online{
         color: #25a6e6;
-        font-size: 0.8rem;
+        font-size: 1.1rem;
  
 }
 .Offline{
     color: #fe5e24;
-    font-size: 0.8rem   ;
+    font-size: 1.1rem   ;
 }
 
 
 .status-text{
     color: #aeaeae;
-    font-size: 0.8rem;
+    font-size: 1.1rem;
     margin-top: 0.7rem;
 
 
 }
 .online-status p{
-    margin-right: 20px;
+    margin-right: 1.2rem;
 }
 .wallet-balance{
     display: flex;
@@ -102,93 +105,108 @@
 }
 .wallet{
     background-color: #ef3d18;
-    width: 1.5vw;
-    height: 1.5vw;
-    border-radius: 3vw;
-    padding: 1vw;
-    margin-right: 1vw;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 3rem;
+    /* padding: 1rem; */
+    margin-right: 1rem;
     color: whitesmoke   ;
-    font-size: 1.3vw;
+    font-size: 3rem;
+    /* padding-top: -1rem; */
+    padding-left: 1rem;
+    
 }
 .refral{
     background-color: #6d7ae3 ;
-    width: 1.5vw;
-    height: 1.5vw;
-    border-radius: 3vw;
-    padding: 1vw;
-    margin-right: 1vw;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 3rem;
+    /* padding: 1rem; */
+    margin-right: 1rem;
     color: whitesmoke   ;
-    font-size: 1.3vw;
+    font-size: 3rem;
+    /* padding-top: -1rem; */
+    padding-left: 1rem;
 }
 .estimate{
     background-color: #4c993a;
-    width: 1.5vw;
-    height: 1.5vw;
-    border-radius: 3vw;
-    padding: 1vw;
-    margin-right: 1vw;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 3rem;
+    /* padding: 1rem; */
+    margin-right: 1rem;
     color: whitesmoke   ;
-    font-size: 1.3vw;
+    font-size: 3rem;
+    /* padding-top: -1rem; */
+    padding-left: 1rem;
 }
 .earning{
     background-color:  #f67a98;
-    width: 1.5vw;
-    height: 1.5vw;
-    border-radius: 3vw;
-    padding: 1vw;
-    margin-right: 1vw;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 3rem;
+    /* padding: 1rem; */
+    margin-right: 1rem;
     color: whitesmoke   ;
-    font-size: 1.3vw;
+    font-size: 3rem;
+    /* padding-top: -1rem; */
+    padding-left: 1rem;
 
 }
 .last-text-clor{
     color: #aeaeae;
-    font-size: 1rem;
+    font-size: 1.5rem;
 }
+
 .last-value-text{
     color: black;
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: 600;
 
 }
 .ui-widget {
     position: relative;
     display: inline-block;
-    width:13rem;
-    height: 13rem;
-    margin: 1.5rem;
-    border: 1.2rem solid #f4c61d;
+    width:16rem;
+    height: 16rem;
+    margin-top: 2rem;
+    border: 2rem solid #f4c61d;
     text-align: center;
-    border-radius: 9rem;
+    border-radius: 10rem;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
     border-bottom-color: #a5e2fd;
     border-top-color:#ff5f13 ;
     border-right-color:#ff5f13;
     box-sizing: border-box;
+    margin-bottom: 5rem;
 }
 .center{
-    margin-left: 2.3rem;
-    margin-top: -1.5rem;
+    margin-left: 9rem;
+    /* margin-top: -1.5rem; */
 }
 .facebook{
     color: #22a1fe;
-    font-size: 1rem;
+    font-size: 1.5rem;
 }
 .youtube{
     color: #ff5f13;
-    font-size: 1rem;
+    font-size: 1.5rem;
 }
 .direct{
     color: #fcca00;
-    font-size: 1rem;
+    font-size: 1.5rem;
 }
 .percentage{
     color: black;
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: 600;
-    margin-left: 1rem;
+    margin-left: 1.8rem;
+   
 
 }
-.block-right .wallet-balance{
+/* .block-right .wallet-balance{
     margin-top: -1rem;
+} */
+.activity-name{
+    font-size: 1.5rem;
 }

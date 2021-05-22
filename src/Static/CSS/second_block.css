@@ -1,59 +1,63 @@
 .main-layout{
     display: flex;
-    margin-left: 1.2rem;
-    margin-right: 1.2rem;
+    margin-left: 2rem;
+    margin-right:2rem;
     margin-top: 2%;
 }
 
 .revinue{
     background-color: #def1ff;
     width: 25%;
-    height: 150px;
-    margin: 0.5%;
+    height: 15rem;
+    margin-right:1rem ;
     border:1px solid #c4dff3;
     opacity: 1;
-    border-radius: 5px;
-    padding: 0.5vw;
+    border-radius: 0.3rem;
+    padding: 1rem;
 }
 .revinue1{
     background-color: #fef7da;
     width: 25%;
-    height: 150px;
-    margin: 0.5%;
+    height: 15rem;
+    margin: 0 1rem 0 1rem;
     border: 1px solid #fcedad ;
     opacity: 1;
-    border-radius: 5px;
-    padding: 0.5vw;
+    border-radius: 0.3rem;
+    padding: 1rem;
 }
 .revinue2{
     background-color: #ffe7db;
     width: 25%;
-    height: 150px;
-    margin: 0.5%;
+    height: 15rem;
+    margin: 0 1rem 0 1rem;
     border: 1px solid #f7cfbb ;
     opacity: 1;
-    border-radius: 5px;
-    padding: 0.5vw;
+    border-radius: 0.3rem;
+    padding: 1rem;
     
 }
 .revinue3{
     background-color: #f0dcff;
     width: 25%;
     height: 150px;
-    margin: 0.5%;
+    width: 25%;
+    height: 15rem;
+    margin: 0 0rem 0 1rem;
     border: 1px solid #e1c5f7;
     opacity: 1;
-    border-radius: 5px;
-    padding: 0.5vw;
+    border-radius: 0.3rem;
+    padding: 1rem;
 }
 .revinue-content{
     display: flex;
     justify-content: space-between;
-    margin: 1.5rem;
+    margin-top: 5rem;
+    
 }
 .col-disply{
     display: flex;
-    margin-left: -50px;
+    
+  
 
 }
 li{
@@ -62,74 +66,75 @@ li{
 
 .li1{
     background-color: #2598ed;
-    width: 5px;
-    height: 50px;
-    padding: 2px;
+    width:0.6rem;
+    height: 5rem;
+    padding: 0.1rem;
     list-style: none;
-    margin: 5px;
+    margin: 0.3rem;
   
 }
 .li2{
     background-color: #8614ea;
-    width: 5px;
-    height: 50px;
-    padding: 2px;
+    width:0.6rem;
+    height: 5rem;
+    padding: 0.1rem;
     list-style: none;
-    margin: 5px;
+    margin: 0.3rem;
   
 }
 .text-tital{
     color: black;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
    
 }
 .doller-value{
     color: #2598ed;
-    font-size: 1.5rem;
+    font-size: 4rem;
 }
 .doller-value-sign{
     color: #2598ed;
-    font-size: 1.1rem;
+    font-size: 2rem;
 }
 .doller-value-last{
     color: #8614ea;
-    font-size: 1.1rem;
+    font-size: 4rem;
 
 }
 .doller-value-sign3{
     color: #8614ea;
-    font-size: 1.1rem;
+    font-size: 2rem;
 }
 .doller-value1{
     color: #f9d12d;
-    font-size: 1.5rem;
+    font-size: 4rem;
     margin-top: -1rem;
 }
 .doller-value-sign1{
     color: #f9d12d;
-    font-size: 1.1rem;
+    font-size: 2rem;
 }
 .doller-value-sign2{
     
     color: #df5926;
-    font-size: 1.1rem;
+    font-size: 2rem;
 }
 .doller-value2{
     color: #df5926;
-    font-size: 1.5rem;
+    font-size: 4rem;
     margin-top: -1rem;
    
 }
 .text-second{
     color: #a5a5a5;
-    font-size: 0.8rem;
-    margin-top: -2.5rem;
-    margin-left: 0.5rem;
+    font-size: 1rem;
+    margin-top: -1rem;
+    margin-left: 1rem;
 }
 select{
-    font-size: 1rem;
+    font-size: 1.3rem;
     border: none;
     height: 2rem;
+    margin-top: 2rem;
     
 }
 

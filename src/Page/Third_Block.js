@@ -10,19 +10,19 @@ const Block3 = () => {
                 <div className="block-last-left">
                     <p className="tital-text">Recent Activities</p>
                     <div className="block-three-content">
-                        <div>
-                            <p className="last-light-text" style={{ marginTop: '2vw' }}>42 Min Ago</p>
-                            <p className="last-light-text" style={{ marginTop: '4.6vw' }}>1 Day Ago</p>
-                            <p className="last-light-text" style={{ marginTop: '4.6vw' }}>42 Min Ago</p>
-                            <p className="last-light-text" style={{ marginTop: '4.6vw' }}>1 Day Ago</p>
-                            <p className="last-light-text" style={{ marginTop: '4.6vw' }}> 1 Day Ago</p>
+                        <div className="mar">
+                            <p className="last-light-text1" >42 Min Ago</p>
+                            <p className="last-light-text1 botm" >1 Day Ago</p>
+                            <p className="last-light-text1 botm" >42 Min Ago</p>
+                            <p className="last-light-text1 botm" >1 Day Ago</p>
+                            <p className="last-light-text1 botm" > 1 Day Ago</p>
                         </div>
                         <div className="mid-content">
-                            <div className="last-display"><p className="task-updated"><FaIcons.FaTasks /></p><p><strong >Task Updated<br /></strong><span className="person-name">Nikolai</span><small className="overview">Updated a Task</small></p></div>
-                            <div className="last-display"><p className="deal-added"><IoIcons.IoMdFlash /></p><p><strong >Deal Added<br /></strong><span className="person-name">Pranashi</span><small className="overview">Updated a Task</small></p></div>
-                            <div className="last-display"><p className="publish"><AiIcons.AiFillEdit /></p><p><strong >Published Artical<br /></strong><span className="person-name">Rasel</span><small className="overview">Published a Article</small></p></div>
-                            <div className="last-display"><p className="updated"><IoIcons.IoMdFlash /></p><p><strong >Dock Updated<br /></strong><span className="person-name">Reshmi</span><small className="overview">Updated a Task</small></p></div>
-                            <div className="last-display"><p className="comment"><IoIcons.IoMdFlash /></p><p><strong >Replayed Comments<br /></strong><span className="person-name">Jenathon</span><small className="overview"> Added a Comment</small></p></div>
+                            <div className="last-display"><p className="task-updated"><FaIcons.FaTasks /></p><p><strong className="activity-name">Task Updated<br /></strong><span className="person-name">Nikolai</span><small className="overview">Updated a Task</small></p></div>
+                            <div className="last-display"><p className="deal-added"><IoIcons.IoMdFlash /></p><p><strong className="activity-name" >Deal Added<br /></strong><span className="person-name">Pranashi</span><small className="overview">Updated a Task</small></p></div>
+                            <div className="last-display"><p className="publish"><AiIcons.AiFillEdit /></p><p><strong className="activity-name">Published Artical<br /></strong><span className="person-name">Rasel</span><small className="overview">Published a Article</small></p></div>
+                            <div className="last-display"><p className="updated"><IoIcons.IoMdFlash /></p><p><strong className="activity-name">Dock Updated<br /></strong><span className="person-name">Reshmi</span><small className="overview">Updated a Task</small></p></div>
+                            <div className="last-display"><p className="comment"><IoIcons.IoMdFlash /></p><p><strong className="activity-name">Replayed Comments<br /></strong><span className="person-name">Jenathon</span><small className="overview"> Added a Comment</small></p></div>
 
 
                         </div>
@@ -34,18 +34,18 @@ const Block3 = () => {
 
 
                 </div>
-                <div className="blocklastright">
-                    <p className="titaltext">Order Status<br /><span className="overview">Overview Of Letest Month</span></p>
+                <div className="block-last-right">
+                    <p className="tital-text">Order Status<br /><span className="last-light-text">Overview Of Letest Month</span></p>
                     <div>
-                        <div className="display1">
+                        <div className="display1" style={{ marginTop: '1.5rem' }}>
                             <div>
-                                <button className="Add"> <AiIcons.AiFillPlusCircle style={{ fontSize: '1rem', marginTop: '0.3rem' }} /><span style={{ marginLeft: '0.5rem', marginTop: '-1rem' }}>Add</span></button>
+                                <button className="Add"> <AiIcons.AiFillPlusCircle />Add</button>
                                 <button className="info"> <AiIcons.AiFillInfoCircle /></button>
                                 <button className="info"> <AiIcons.AiTwotoneDelete /></button>
                                 <button className="info"> <AiIcons.AiFillPrinter /></button>
                             </div>
-                            <div>
-                                <input type="text" placeholder="Search"></input>
+                            <div style={{ display: 'flex' }}>
+                                <div style={{ marginRight: '1rem' }} > <input type="text" placeholder="Search" /></div>
                                 <button className="info"> <AiIcons.AiFillPrinter /></button>
                             </div>
                         </div>
